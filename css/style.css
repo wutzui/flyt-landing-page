@@ -90,7 +90,7 @@ table {
 
 /* Top img */
 .header-img img {
-  position: fixed;
+  position: absolute;
   z-index: -100;
   width: 100vw;
 }
@@ -123,7 +123,6 @@ table {
 
 .header-text {
   margin-top: 32vh;
-  margin-left: 10vw;
   color: #000979;
 }
 .header-text h1 {
@@ -138,7 +137,7 @@ table {
 
 /* iphone mockup img */
 .top-device-img {
-  margin: 140px 10vw 0 0;
+  margin-top: 140px;
   display: block;
   height: 55vw;
   float: right;
@@ -159,16 +158,85 @@ table {
 }
 .section-1-img img {
   margin: 0 auto;
+  width: 100vw;
 }
 
 .section-1 {
   position: absolute;
   z-index: 12;
-  top: 90vh;
+  top: 105vh;
+  color: #000979;
+  margin: 0 14vw;
+}
+.section-1 h1 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 13vh;
+}
+
+.section-1-content {
+  margin-bottom: 60px;
+}
+.section-1-content h2 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 34px;
+  letter-spacing: 1.3px;
+  margin-bottom: 20px;
+}
+.section-1-content p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.slash {
+  margin-right: 20px;
+}
+.slash img {
+  width: 40px;
+}
+
+.bottom-bg-img {
+  position: absolute;
+  z-index: 15;
+  top: 290vh;
+}
+.bottom-bg-img img {
+  width: 100vw;
+}
+
+.section-2 {
+  position: relative;
+  z-index: 30;
+  margin: 0 auto;
+  top: -140px;
+}
+
+.section-2-content {
+  box-shadow: 0 8px 40px rgba(0, 9, 121, 0.3);
+  background-color: #ffffff;
+  height: 300px;
+  border-radius: 3px;
+  padding: 30px;
+  margin: 10px;
 }
 
 body {
   font-family: 'Rubik', sans-serif;
+}
+
+footer {
+  position: relative;
+  z-index: 31;
+  margin: 0 auto;
+  bottom: 0px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0.5px;
 }
 
 .form-control {
