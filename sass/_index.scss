@@ -12,16 +12,17 @@
 // ============================================================================//
 .header-text { // iphone5: width-320px.
   margin-top: 20vh;
-  color: #000979; //dark blue
+  // color: #000979; //dark blue
   h1 {
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1px;
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 60px;
+   letter-spacing: 1px;
   }
   h5 {
-    margin: 30px 0 40px 0;
-    font-size: 18px;
+   margin: 30px 0 40px 0;
+   font-size: 18px;
+   color: #000979; //dark blue
   }
 }
 @media (min-width: 375px) {
@@ -37,6 +38,7 @@
       margin-top: 25vh;
       h1 {
          font-size: 70px;
+         line-height: 75px;
       }
       h5 {
          font-size: 22px;
@@ -99,7 +101,6 @@
    top: -20px;
    left: 160px;
 }
-
 @media (min-width: 375px) {
    .submit {
       left: 210px;
@@ -418,6 +419,14 @@
 }
 @media (min-width: 414px) {
    .status-title {
+      img {
+         height: 60px;
+      }
+   }
+}
+@media (min-width: $width-1280) {
+   .status-title {
+      top: 18px;
       img {
          height: 60px;
       }
