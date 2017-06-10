@@ -486,6 +486,14 @@ p {
     height: 60px;
   }
 }
+@media (min-width: 1200px) {
+  .status-title {
+    top: 18px;
+  }
+  .status-title img {
+    height: 60px;
+  }
+}
 @media (min-width: 1360px) {
   .status-title {
     top: 18px;
