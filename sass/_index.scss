@@ -1,0 +1,433 @@
+// ============================================================================//
+// Top img
+// ============================================================================//
+.header-img img {
+  position: absolute;
+  z-index: -100;
+  width: 100vw;
+}
+
+// ============================================================================//
+// Header
+// ============================================================================//
+.header-text { // iphone5: width-320px.
+  margin-top: 20vh;
+  color: #000979; //dark blue
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1px;
+  }
+  h5 {
+    margin: 30px 0 40px 0;
+    font-size: 18px;
+  }
+}
+@media (min-width: 375px) {
+   .header-text {
+      margin-top: 32vh;
+      h1 {
+         font-size: 70px;
+      }
+   }
+}
+@media (min-width: $width-1280) {
+   .header-text {
+      margin-top: 25vh;
+      h1 {
+         font-size: 70px;
+      }
+      h5 {
+         font-size: 22px;
+      }
+   }
+}
+@media (min-width: $width-2560) {
+   .header-text {
+      margin-top: 25vh;
+      h1 {
+         font-size: 80px;
+         line-height: 85px;
+      }
+      h5 {
+         font-size: 25px;
+         margin-bottom: 80px;
+      }
+   }
+}
+
+// ============================================================================//
+// Iphone mockup img
+// ============================================================================//
+.top-device-img { // iphone5: width-320px.
+  display: none;
+}
+@media (min-width: $width-ipad) {
+   .top-device-img {
+      height: 60vh;
+      margin-top: 250px;
+      float: right;
+      display: block;
+   }
+}
+@media (min-width: $width-1024) {
+   .top-device-img {
+      height: 80vh;
+      margin-top: 150px;
+   }
+}
+@media (min-width: $width-1280) {
+   .top-device-img {
+      margin-top: 120px;
+      height: 90vh;
+   }
+}
+@media (min-width: $width-2560) {
+   .top-device-img {
+      height: 90vh;
+      margin-top: 140px;
+   }
+}
+
+// ============================================================================//
+// submit button
+// ============================================================================//
+.submit { // iphone5: width-320px.
+   position: relative;
+   z-index: 10;
+   top: -20px;
+   left: 160px;
+}
+
+@media (min-width: 375px) {
+   .submit {
+      left: 210px;
+   }
+}
+@media (min-width: 414px) {
+   .submit {
+      left: 250px;
+   }
+}
+@media (min-width: $width-1280) {
+   .submit {
+      left: 400px;
+   }
+}
+@media (min-width: $width-2560) {
+   .submit {
+      left: 500px;
+   }
+}
+
+// ============================================================================//
+// section 1
+// ============================================================================//
+
+/* section 1: background - img */
+.section-1-img { // iphone5: width-320px.
+   position: absolute;
+   z-index: 11;
+   top: 450px;
+   left: 0;
+   img{
+      width: 100vw;
+   }
+}
+@media (min-width: 375px) {
+   .section-1-img {
+      top: 550px;
+   }
+}
+@media (min-width: $width-ipad) {
+   .section-1-img{
+      top: 600px;
+   }
+}
+@media (min-width: $width-1024) {
+   .section-1-img{
+      top: 490px;
+   }
+}
+@media (min-width: $width-1280) {
+   .section-1-img{
+      top: 420px;
+   }
+}
+@media (min-width: $width-1920) {
+   .section-1-img{
+      top: 500px;
+   }
+}
+@media (min-width: $width-2560) {
+   .section-1-img{
+      top: 700px;
+   }
+}
+
+.section-1 { // iphone5: width-320px.
+   position: relative;
+   z-index: 12;
+   top: 100px;
+   color: #000979; //dark blue
+   h1 {
+      font-size: 50px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 5vh;
+      text-align: center;
+   }
+}
+@media (min-width: 375px) {
+   .section-1 {
+      top: 220px;
+      h1 {
+         font-size: 60px;
+      }
+   }
+}
+@media (min-width: 414px) {
+   .section-1 {
+      h1 {
+         font-size: 60px;
+      }
+   }
+}
+
+@media (min-width: $width-ipad) {
+   .section-1 {
+      top: 200px;
+      h1 {
+         font-size: 60px;
+      }
+   }
+}
+@media (min-width: $width-1024) {
+   .section-1 {
+      top: 90px;
+      h1 {
+         text-align: left;
+      }
+   }
+}
+@media (min-width: $width-1280) {
+   .section-1 {
+      top: 100px;
+      h1 {
+         font-size: 60px;
+         margin-bottom: 13vh;
+         text-align: left;
+      }
+   }
+}
+
+.section-1-content { // iphone5: width-320px.
+   margin-bottom: 60px;
+   text-align: center;
+   h2 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+      margin-bottom: 20px;
+   }
+   p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 0.5px;
+   }
+}
+@media (min-width: 414px) {
+   .section-1-content {
+      h2 {
+         font-size: 26px;
+         line-height: 34px;
+      }
+      p{
+         font-size: 16px;
+         line-height: 24px;         
+      }
+   }
+}
+@media (min-width: $width-1024) {
+   .section-1-content {
+      text-align: left;
+      margin-bottom: 60px;
+   }  
+}
+@media (min-width: $width-1280) {
+   .section-1-content {
+      margin-bottom: 60px;
+      h2 {
+         font-size: 26px;
+         line-height: 34px;
+         margin-bottom: 20px;
+      }
+      p {
+      }
+   }  
+}
+
+/* vector x 3 */
+.section-1-vector { // iphone5: width-320px.
+   display: none;
+}
+
+/* slash line */
+.slash { // iphone5: width-320px.
+   display: block;
+   img {
+      width: 20px;
+   }
+}
+@media (min-width: 2560px) {
+   .slash {
+      display: block;
+      margin-right: 20px;
+      img {
+         width: 40px;
+      }
+   }
+}
+
+// ============================================================================//
+// section 2
+// ============================================================================//
+
+/* section 2: background - img */
+.section-2-img { // iphone5: width-320px.
+   position: absolute;
+   z-index: 11;
+   top: 1800px;
+   left: 0;
+   display: block;
+   img {
+      width: 100vw;
+   }
+}
+@media (min-width: 414px) {
+   .section-2-img {
+      top: 1800px;
+   }
+}
+@media (min-width: $width-ipad) {
+   .section-2-img {
+      top: 2100px;
+   }
+}
+@media (min-width: $width-1024) {
+   .section-2-img {
+      top: 1800px;
+   }
+}
+@media (min-width: $width-1280) {
+   .section-2-img {
+      display: none;
+   }
+}
+
+.section-2 { // iphone5: width-320px.
+   position: relative;
+   z-index: 12;
+   margin: 0 auto;
+   top: 100px;
+}
+@media (min-width: 375px) {
+   .section-2 {
+      top: 250px;
+   }
+}
+@media (min-width: $width-ipad) {
+   .section-2 {
+      top: 300px;
+   }
+}
+@media (min-width: $width-1024) {
+   .section-2 {
+      top: 500px;
+   }
+}
+@media (min-width: $width-1280) {
+   .section-2 {
+      top: 300px;
+   }
+}
+@media (min-width: $width-2560) {
+   .section-2 {
+      top: 500px;
+   }
+}
+
+.section-2-content { // iphone5: width-320px.
+   box-shadow: 0 8px 40px rgba(0, 9, 121, 0.3);
+   background-color: #ffffff;
+   height: 350px;
+   border-radius: 3px;
+   padding: 30px;
+   margin-bottom: 60px;
+   p {
+      font-size: 14px;
+      line-height: 23px;
+   }
+}
+@media (min-width: 414px) {
+   .section-2-content {
+      p {
+         font-size: 15px;
+         line-height: 24px;
+      }
+   }
+}
+@media (min-width: $width-1280) {
+   .section-2-content {
+      box-shadow: 0 8px 40px rgba(0, 9, 121, 0.3);
+      background-color: #ffffff;
+      height: 300px;
+      border-radius: 3px;
+      padding: 30px;
+      margin: 10px;
+      p {
+         font-size: 14px;
+         line-height: 23px;
+      }
+   }
+}
+@media (min-width: $width-2560) {
+   .section-2-content {
+      height: 450px;
+      margin: 10px;
+      p {
+         font-size: 14px;
+         line-height: 23px;
+      }
+   }
+}
+
+/* status title - img */
+.status-title { // iphone5: width-320px.
+   text-align: right;
+   margin-right: 25px;
+   position: relative;
+   z-index: -5;
+   top: 8px;
+   img {
+      height: 50px;
+   }
+}
+@media (min-width: 414px) {
+   .status-title {
+      img {
+         height: 60px;
+      }
+   }
+}
+@media (min-width: $width-1440) {
+   .status-title {
+      top: 18px;
+      img {
+         height: 65px;
+      }
+   }
+}

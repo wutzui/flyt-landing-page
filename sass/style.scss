@@ -1,0 +1,178 @@
+@import 'reset';
+@import 'variables';
+@import 'grid';
+@import 'index';
+
+body {
+   font-family: 'Rubik', sans-serif;
+}
+
+// ============================================================================//
+// footer
+// ============================================================================//
+footer {
+   position: relative;
+   z-index: 11;
+   width: 100vw;
+   height: 38vh;
+   margin: 0 auto;
+   bottom: 0px;
+   text-align: center;
+   color: #ffffff;
+   letter-spacing: 0.5px;
+   background-image: url("bottom_bg.png");
+   background-repeat: round;
+   p {
+     font-size: 13px;
+     letter-spacing: 0.5px;
+     padding-top: 150px;
+   }
+}
+@media (min-width: 375px) {
+   footer {
+      bottom: -100px;
+   }
+}
+@media (min-width: $width-ipad) {
+   footer {
+      height: 46vh;
+      bottom: -130px;
+      p {
+         padding-top: 200px;
+      }
+   }
+}
+@media (min-width: $width-1024) {
+   footer {
+      height: 80vh;
+      bottom: -200px;
+      p {
+         padding-top: 300px;
+      }
+   }
+}
+@media (min-width: $width-1280) {
+   footer {
+      height: 110vh;
+      bottom: -100px;
+   }
+}
+@media (min-width: $width-2560) {
+   footer {
+      bottom: -100px;
+      p {
+         padding-top: 500px;
+      }
+   }  
+}
+
+// ============================================================================//
+// Navigation Bar
+// ============================================================================//
+.nav-logo {
+   height: 30px;
+}
+
+.nav li {
+   font-weight: 700;
+   font-size: 13px;
+   letter-spacing: 2px;
+   a {
+      color: #000979;
+      transition: 0.25s ease-in;
+   }
+   a:hover {
+      background-color: transparent;
+      color: #95D9F9;
+      transition: 0.25s ease-in;
+   }
+   a:active {
+      color: #95D9F9;
+      background-color: transparent;     
+   }
+   a:focus {
+      color: #95D9F9;
+      background-color: transparent;
+   }
+}
+
+.form-control {
+   border-radius: 100px;
+   height: 40px;
+   border: 0;
+   box-shadow: 0 0 30px #B5D9FF;
+}
+.form-control:focus {
+   outline: 0;
+   box-shadow: 0 0 30px #B5D9FF;
+}
+@media (min-width: $width-ipad) {
+   .form-control {
+      width: 300px;
+   }
+}
+@media (min-width: $width-1280) {
+   .form-control {
+      width: 450px;
+   }
+}
+@media (min-width: $width-2560) {
+   .form-control {
+      width: 550px;
+   }
+}
+
+// ============================================================================//
+// button general style
+// ============================================================================//
+.btn {
+   border-radius: 100px;
+   height: 40px;
+   border: 0;
+   box-shadow: 0 0 30px #85C1FF;
+   color: #ffffff;
+   padding: 0 20px;
+   font-weight: 700;
+   letter-spacing: 2px;
+   text-align: center;
+   transition: 0.5s ease-in;
+   
+   /* gradient */
+   background: rgba(109,209,255,1);
+   background: -moz-linear-gradient(left, rgba(109,209,255,1) 0%, rgba(89,0,255,1) 100%);
+   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(109,209,255,1)), color-stop(100%, rgba(89,0,255,1)));
+   background: -webkit-linear-gradient(left, rgba(109,209,255,1) 0%, rgba(89,0,255,1) 100%);
+   background: -o-linear-gradient(left, rgba(109,209,255,1) 0%, rgba(89,0,255,1) 100%);
+   background: -ms-linear-gradient(left, rgba(109,209,255,1) 0%, rgba(89,0,255,1) 100%);
+   background: linear-gradient(to right, rgba(109,209,255,1) 0%, rgba(89,0,255,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6dd1ff', endColorstr='#5900ff', GradientType=1 );
+}
+.btn:hover {
+   transition: 0.5s ease-in;
+   color: #000979;
+   box-shadow: 0 0 30px rgba(0, 9, 121, 0.5);
+
+   background: rgba(212,242,255,1);
+   background: -moz-linear-gradient(left, rgba(212,242,255,1) 0%, rgba(224,209,255,1) 100%);
+   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,242,255,1)), color-stop(100%, rgba(224,209,255,1)));
+   background: -webkit-linear-gradient(left, rgba(212,242,255,1) 0%, rgba(224,209,255,1) 100%);
+   background: -o-linear-gradient(left, rgba(212,242,255,1) 0%, rgba(224,209,255,1) 100%);
+   background: -ms-linear-gradient(left, rgba(212,242,255,1) 0%, rgba(224,209,255,1) 100%);
+   background: linear-gradient(to right, rgba(212,242,255,1) 0%, rgba(224,209,255,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4f2ff', endColorstr='#e0d1ff', GradientType=1 );
+}
+.btn:focus {
+   transition: 0.5s ease-in;
+   outline: 0 !important;
+   box-shadow: 0 0 30px rgba(0, 9, 121, 0.5);
+}
+.btn:active {
+   transition: 0.5s ease-in;
+   outline: 0;
+   box-shadow: 0 0 30px rgba(0, 9, 121, 0.5);  
+   color: #000979;
+}
+
+// ============================================================================//
+// general stlye
+// ============================================================================//
