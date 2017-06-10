@@ -16,7 +16,7 @@ footer {
    width: 100vw;
    height: 38vh;
    margin: 0 auto;
-   bottom: 0px;
+   bottom: -50px;
    text-align: center;
    color: #ffffff;
    letter-spacing: 0.5px;
@@ -30,7 +30,7 @@ footer {
 }
 @media (min-width: 375px) {
    footer {
-      bottom: -100px;
+      bottom: -200px;
    }
 }
 @media (min-width: $width-ipad) {
@@ -44,7 +44,7 @@ footer {
 }
 @media (min-width: $width-1024) {
    footer {
-      height: 80vh;
+      height: 550px;
       bottom: -200px;
       p {
          padding-top: 300px;
@@ -53,13 +53,20 @@ footer {
 }
 @media (min-width: $width-1280) {
    footer {
-      height: 110vh;
-      bottom: -100px;
+      height: 700px;
+      bottom: 0px;
+   }
+}
+@media (min-width: $width-1920) {
+   footer {
+      height: 1000px;
+      bottom: 0px;
    }
 }
 @media (min-width: $width-2560) {
    footer {
-      bottom: -100px;
+      bottom: 0px;
+      height: 1400px;
       p {
          padding-top: 500px;
       }

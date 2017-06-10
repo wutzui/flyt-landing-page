@@ -152,27 +152,26 @@ p {
 
 @media (min-width: 768px) {
   .top-device-img {
-    height: 60vh;
+    width: 26vw;
     margin-top: 250px;
+    padding-right: 10vw;
     float: right;
     display: block;
+    padding-right: 5vw;
   }
 }
 @media (min-width: 1024px) {
   .top-device-img {
-    height: 80vh;
     margin-top: 150px;
   }
 }
 @media (min-width: 1200px) {
   .top-device-img {
-    margin-top: 120px;
-    height: 90vh;
+    margin-top: 150px;
   }
 }
 @media (min-width: 2560px) {
   .top-device-img {
-    height: 90vh;
     margin-top: 140px;
   }
 }
@@ -231,12 +230,12 @@ p {
 }
 @media (min-width: 1200px) {
   .section-1-img {
-    top: 420px;
+    top: 480px;
   }
 }
 @media (min-width: 1920px) {
   .section-1-img {
-    top: 500px;
+    top: 650px;
   }
 }
 @media (min-width: 2560px) {
@@ -285,6 +284,7 @@ p {
   }
   .section-1 h1 {
     text-align: left;
+    margin-bottom: 10vw;
   }
 }
 @media (min-width: 1200px) {
@@ -297,12 +297,22 @@ p {
     text-align: left;
   }
 }
+@media (min-width: 2560px) {
+  .section-1 {
+    top: -700px;
+  }
+  .section-1 h1 {
+    font-size: 60px;
+    margin-bottom: 13vh;
+    text-align: left;
+  }
+}
 .section-1-content {
   margin-bottom: 60px;
   text-align: center;
 }
 .section-1-content h2 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: 0.5px;
@@ -333,10 +343,10 @@ p {
 }
 @media (min-width: 1200px) {
   .section-1-content {
-    margin-bottom: 60px;
+    margin-bottom: 120px;
   }
   .section-1-content h2 {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 34px;
     margin-bottom: 20px;
   }
@@ -346,9 +356,31 @@ p {
   display: none;
 }
 
+@media (min-width: 1024px) {
+  .section-1-vector {
+    display: block;
+  }
+  .section-1-vector img {
+    width: 100%;
+  }
+}
+.section-1-vector-m {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.section-1-vector-m img {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .section-1-vector-m {
+    display: none;
+  }
+}
 /* slash line */
 .slash {
-  display: block;
+  display: none;
 }
 .slash img {
   width: 20px;
@@ -367,7 +399,7 @@ p {
 .section-2-img {
   position: absolute;
   z-index: 11;
-  top: 1800px;
+  top: 2200px;
   left: 0;
   display: block;
 }
@@ -375,9 +407,14 @@ p {
   width: 100vw;
 }
 
+@media (min-width: 375px) {
+  .section-2-img {
+    top: 2400px;
+  }
+}
 @media (min-width: 414px) {
   .section-2-img {
-    top: 1800px;
+    top: 2450px;
   }
 }
 @media (min-width: 768px) {
@@ -399,12 +436,12 @@ p {
   position: relative;
   z-index: 12;
   margin: 0 auto;
-  top: 100px;
+  top: 200px;
 }
 
 @media (min-width: 375px) {
   .section-2 {
-    top: 250px;
+    top: 370px;
   }
 }
 @media (min-width: 768px) {
@@ -414,23 +451,23 @@ p {
 }
 @media (min-width: 1024px) {
   .section-2 {
-    top: 500px;
+    top: 370px;
   }
 }
 @media (min-width: 1200px) {
   .section-2 {
-    top: 300px;
+    top: 200px;
   }
 }
 @media (min-width: 2560px) {
   .section-2 {
-    top: 500px;
+    top: -400px;
   }
 }
 .section-2-content {
-  box-shadow: 0 8px 40px rgba(0, 9, 121, 0.3);
+  box-shadow: 0 8px 80px rgba(11, 177, 255, 0.2);
   background-color: #ffffff;
-  height: 350px;
+  height: 180px;
   border-radius: 3px;
   padding: 30px;
   margin-bottom: 60px;
@@ -448,10 +485,7 @@ p {
 }
 @media (min-width: 1200px) {
   .section-2-content {
-    box-shadow: 0 8px 40px rgba(0, 9, 121, 0.3);
-    background-color: #ffffff;
-    height: 300px;
-    border-radius: 3px;
+    height: 200px;
     padding: 30px;
     margin: 10px;
   }
@@ -462,7 +496,7 @@ p {
 }
 @media (min-width: 2560px) {
   .section-2-content {
-    height: 450px;
+    height: 200px;
     margin: 10px;
   }
   .section-2-content p {
@@ -513,7 +547,7 @@ footer {
   width: 100vw;
   height: 38vh;
   margin: 0 auto;
-  bottom: 0px;
+  bottom: -50px;
   text-align: center;
   color: #ffffff;
   letter-spacing: 0.5px;
@@ -528,7 +562,7 @@ footer p {
 
 @media (min-width: 375px) {
   footer {
-    bottom: -100px;
+    bottom: -200px;
   }
 }
 @media (min-width: 768px) {
@@ -542,7 +576,7 @@ footer p {
 }
 @media (min-width: 1024px) {
   footer {
-    height: 80vh;
+    height: 550px;
     bottom: -200px;
   }
   footer p {
@@ -551,13 +585,20 @@ footer p {
 }
 @media (min-width: 1200px) {
   footer {
-    height: 110vh;
-    bottom: -100px;
+    height: 700px;
+    bottom: 0px;
+  }
+}
+@media (min-width: 1920px) {
+  footer {
+    height: 1000px;
+    bottom: 0px;
   }
 }
 @media (min-width: 2560px) {
   footer {
-    bottom: -100px;
+    bottom: 0px;
+    height: 1400px;
   }
   footer p {
     padding-top: 500px;
