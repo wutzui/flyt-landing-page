@@ -21,7 +21,7 @@ footer {
    color: #ffffff;
    letter-spacing: 0.5px;
    background-image: url("bottom_bg.png");
-   background-repeat: round;
+   background-repeat: round space;
    p {
      font-size: 13px;
      letter-spacing: 0.5px;
@@ -231,13 +231,14 @@ footer {
 // ============================================================================//
 h1,h2,h3,h4 {
    /* gradient */
-   background: rgba(0,8,120,1);
-   background: -moz-linear-gradient(left, rgba(0,8,120,1) 0%, rgba(0,47,186,1) 100%);
-   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,8,120,1)), color-stop(100%, rgba(0,47,186,1)));
-   background: -webkit-linear-gradient(left, rgba(0,8,120,1) 0%, rgba(0,47,186,1) 100%);
-   background: -o-linear-gradient(left, rgba(0,8,120,1) 0%, rgba(0,47,186,1) 100%);
-   background: -ms-linear-gradient(left, rgba(0,8,120,1) 0%, rgba(0,47,186,1) 100%);
-   background: linear-gradient(to right, rgba(0,8,120,1) 0%, rgba(0,47,186,1) 100%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+   color: #000979; //dark blue
+   // background: rgba(0,8,120,1);
+   // background: -moz-linear-gradient(left, rgba(0,8,120,1) 0%, rgba(0,47,186,1) 100%);
+   // background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,8,120,1)), color-stop(100%, rgba(0,47,186,1)));
+   // background: -webkit-linear-gradient(left, rgba(0,8,120,1) 0%, rgba(0,47,186,1) 100%);
+   // background: -o-linear-gradient(left, rgba(0,8,120,1) 0%, rgba(0,47,186,1) 100%);
+   // background: -ms-linear-gradient(left, rgba(0,8,120,1) 0%, rgba(0,47,186,1) 100%);
+   // background: linear-gradient(to right, rgba(0,8,120,1) 0%, rgba(0,47,186,1) 100%);
+   // -webkit-background-clip: text;
+   // -webkit-text-fill-color: transparent;
 }

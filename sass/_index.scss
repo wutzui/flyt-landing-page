@@ -87,7 +87,9 @@
 }
 @media (min-width: $width-2560) {
    .top-device-img {
+      width: 18vw;
       margin-top: 140px;
+      padding-right: 0;
    }
 }
 
@@ -107,7 +109,7 @@
 }
 @media (min-width: 414px) {
    .submit {
-      left: 250px;
+      left: 230px;
    }
 }
 @media (min-width: $width-1280) {
@@ -224,7 +226,7 @@
 }
 @media (min-width: $width-2560) {
    .section-1 {
-      top: -700px;
+      top: 100px;
       h1 {
          font-size: 60px;
          margin-bottom: 13vh;
@@ -333,7 +335,7 @@
 .section-2-img { // iphone5: width-320px.
    position: absolute;
    z-index: 11;
-   top: 2200px;
+   top: 2350px;
    left: 0;
    display: block;
    img {
@@ -342,22 +344,22 @@
 }
 @media (min-width: 375px) {
    .section-2-img {
-      top: 2400px;
+      top: 2500px;
    }
 }
 @media (min-width: 414px) {
    .section-2-img {
-      top: 2450px;
+      top: 2600px;
    }
 }
 @media (min-width: $width-ipad) {
    .section-2-img {
-      top: 2100px;
+      top: 2800px;
    }
 }
 @media (min-width: $width-1024) {
    .section-2-img {
-      top: 1800px;
+      top: 1950px;
    }
 }
 @media (min-width: $width-1280) {
@@ -371,30 +373,79 @@
    z-index: 12;
    margin: 0 auto;
    top:200px;
+   color: #000979; //dark blue
+   h1 {
+      font-size: 50px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 5vh;
+      text-align: center;
+   }
+   h6 {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+      margin: 5vh;
+   }
 }
 @media (min-width: 375px) {
    .section-2 {
       top: 370px;
+      h1 {
+         font-size: 60px;
+      }
+   }
+}
+@media (min-width: 414px) {
+   .section-2 {
+      h1 {
+         font-size: 60px;
+      }
    }
 }
 @media (min-width: $width-ipad) {
    .section-2 {
       top: 300px;
+      h1 {
+         font-size: 60px;
+      }
    }
 }
 @media (min-width: $width-1024) {
    .section-2 {
       top: 370px;
+      h1 {
+         text-align: left;
+      }
+      h6{
+         margin: 0 5vh 5vh 5vh;
+      }
    }
 }
 @media (min-width: $width-1280) {
    .section-2 {
       top: 200px;
+      h1 {
+         font-size: 60px;
+         text-align: left;
+      }
+      h6 {
+         margin: 0 5vh 10vh 5vh;
+      }
    }
 }
+
 @media (min-width: $width-2560) {
    .section-2 {
-      top: -400px;
+      top: 250px;
+      h1 {
+         font-size: 60px;
+         text-align: left;
+      }
+      h6 {
+         margin: 0 5vh 5vh 5vh;
+      }
    }
 }
 
