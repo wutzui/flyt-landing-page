@@ -28,4 +28,18 @@
         }
     })
 
+    var scroll_start = 0;
+    var startchange = $('#startchange');
+    var offset = startchange.offset();
+    $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top + 100) {
+          $('#mainNav').css('background-color','#FFFFFF');
+          $('#mainNav').css('box-shadow','0 8px 80px rgba(11, 177, 255, 0.2)');
+       } else {
+          $('#mainNav').css('background-color', 'transparent');
+          ('#mainNav').css('box-shadow','0 8px 80px rgba(11, 177, 255, 0)');
+       }
+    });
+
 })(jQuery); // End of use strict
