@@ -28,18 +28,29 @@
         }
     })
 
+    // white background while scrolling.
     var scroll_start = 0;
     var startchange = $('#startchange');
     var offset = startchange.offset();
     $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top + 100) {
-          $('#mainNav').css('background-color','#FFFFFF');
-          $('#mainNav').css('box-shadow','0 8px 80px rgba(11, 177, 255, 0.2)');
+          $('#mainNav').css('background-color','#FFFFFF')
+                       .css('box-shadow','0 8px 80px rgba(11, 177, 255, 0.2)');
        } else {
-          $('#mainNav').css('background-color', 'transparent');
-          ('#mainNav').css('box-shadow','0 8px 80px rgba(11, 177, 255, 0)');
+          $('#mainNav').css('background-color', 'transparent')
+                       .css('box-shadow','0 8px 80px rgba(11, 177, 255, 0)');
        }
     });
+
+    var hamburger = $('.nav-mobile');
+    var hamburger_ul = $('#nav-mobile-ul');
+    hamburger.click(function(){
+        // $('.nav-mobile-ul').css('background-color', 'transparent');
+        hamburger_ul.slideToggle( "slow" );  
+    });
+
+
+
 
 })(jQuery); // End of use strict

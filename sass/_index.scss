@@ -38,6 +38,11 @@
       }
    }
 }
+@media (min-width: 414px) {
+   .header-text{
+      margin-top: 25vh;
+   }
+}
 @media (min-width: $width-1024) {
    .header-text {
       margin-top: 150px;
@@ -123,16 +128,28 @@
    position: relative;
    z-index: 10;
    top: -20px;
-   left: 160px;
+   left: 150px;
+   font-size: 12px;
 }
-@media (min-width: 375px) {
+@media (min-width: 360px) {
    .submit {
-      left: 210px;
+      left: 180px;
    }
 }
 @media (min-width: 414px) {
    .submit {
       left: 230px;
+   }
+}
+@media (min-width: 736px) {
+   .submit {
+      left: 430px;
+   }
+}
+@media (min-width: $width-ipad) {
+   .submit {
+      left: 250px;
+      font-size: 14px;
    }
 }
 @media (min-width: $width-1280) {
@@ -154,7 +171,7 @@
 .section-1-img { // iphone5: width-320px.
    position: absolute;
    z-index: 11;
-   top: 450px;
+   top: 470px;
    left: 0;
    img{
       width: 100vw;
@@ -162,7 +179,17 @@
 }
 @media (min-width: 375px) {
    .section-1-img {
-      top: 550px;
+      top: 570px;
+   }
+}
+@media (min-width: 414px) {
+   .section-1-img {
+      top: 620px;
+   }
+}
+@media (min-width: 736px) {
+   .section-1-img {
+      top: 430px;
    }
 }
 @media (min-width: $width-ipad) {
@@ -363,11 +390,16 @@
 .section-2-img { // iphone5: width-320px.
    position: absolute;
    z-index: 11;
-   top: 2350px;
+   top: 2210px;
    left: 0;
    display: block;
    img {
       width: 100vw;
+   }
+}
+@media (min-width: 360px) {
+   .section-2-img {
+      top: 2160px;
    }
 }
 @media (min-width: 375px) {
@@ -380,9 +412,14 @@
       top: 2600px;
    }
 }
+@media (min-width: 736px) {
+   .section-2-img {
+      top: 2450px;
+   }
+}
 @media (min-width: $width-ipad) {
    .section-2-img {
-      top: 2800px;
+      top: 2750px;
    }
 }
 @media (min-width: $width-1024) {
@@ -483,7 +520,7 @@
    height: 180px;
    border-radius: 3px;
    padding: 30px;
-   margin-bottom: 60px;
+   margin-top: 60px;
    p {
       font-size: 14px;
       line-height: 23px;
@@ -525,7 +562,7 @@
    margin-right: 25px;
    position: relative;
    z-index: -5;
-   top: 8px;
+   top: 66px;
    img {
       height: 50px;
    }
