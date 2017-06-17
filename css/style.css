@@ -272,7 +272,7 @@ p {
 }
 @media (min-width: 768px) {
   .section-1-img {
-    top: 600px;
+    top: 670px;
   }
 }
 @media (min-width: 1024px) {
@@ -337,7 +337,7 @@ p {
 }
 @media (min-width: 1024px) {
   .section-1 {
-    top: 90px;
+    top: 0px;
   }
   .section-1 h1 {
     text-align: left;
@@ -346,7 +346,7 @@ p {
 }
 @media (min-width: 1200px) {
   .section-1 {
-    top: 100px;
+    top: -100px;
   }
   .section-1 h1 {
     font-size: 60px;
@@ -354,9 +354,15 @@ p {
     text-align: left;
   }
 }
+@media (min-width: 1920px) {
+  .section-1 {
+    top: -240px;
+    padding-top: 100px;
+  }
+}
 @media (min-width: 2560px) {
   .section-1 {
-    top: 100px;
+    top: -210px;
   }
   .section-1 h1 {
     font-size: 60px;
@@ -491,12 +497,22 @@ p {
 }
 @media (min-width: 1024px) {
   .section-2-img {
-    top: 1950px;
+    top: 1850px;
   }
 }
 @media (min-width: 1200px) {
   .section-2-img {
-    display: none;
+    top: 1900px;
+  }
+}
+@media (min-width: 1920px) {
+  .section-2-img {
+    top: 2550px;
+  }
+}
+@media (min-width: 2560px) {
+  .section-2-img {
+    top: 2700px;
   }
 }
 .section-2 {
@@ -555,7 +571,7 @@ p {
 }
 @media (min-width: 1200px) {
   .section-2 {
-    top: 200px;
+    top: 100px;
   }
   .section-2 h1 {
     font-size: 60px;
@@ -563,6 +579,11 @@ p {
   }
   .section-2 h6 {
     margin: 0 5vh 10vh 5vh;
+  }
+}
+@media (min-width: 1920px) {
+  .section-2 {
+    top: 100px;
   }
 }
 @media (min-width: 2560px) {

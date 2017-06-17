@@ -194,7 +194,7 @@
 }
 @media (min-width: $width-ipad) {
    .section-1-img{
-      top: 600px;
+      top: 670px;
    }
 }
 @media (min-width: $width-1024) {
@@ -262,7 +262,7 @@
 }
 @media (min-width: $width-1024) {
    .section-1 {
-      top: 90px;
+      top: 0px;
       h1 {
          text-align: left;
          margin-bottom: 10vw;
@@ -271,7 +271,7 @@
 }
 @media (min-width: $width-1280) {
    .section-1 {
-      top: 100px;
+      top: -100px;
       h1 {
          font-size: 60px;
          margin-bottom: 13vh;
@@ -279,9 +279,15 @@
       }
    }
 }
+@media (min-width: $width-1920) {
+   .section-1 {
+      top: -240px;
+      padding-top: 100px;
+   }
+}
 @media (min-width: $width-2560) {
    .section-1 {
-      top: 100px;
+      top: -210px;
       h1 {
          font-size: 60px;
          margin-bottom: 13vh;
@@ -424,12 +430,22 @@
 }
 @media (min-width: $width-1024) {
    .section-2-img {
-      top: 1950px;
+      top: 1850px;
    }
 }
 @media (min-width: $width-1280) {
    .section-2-img {
-      display: none;
+      top: 1900px;
+   }
+}
+@media (min-width: $width-1920) {
+   .section-2-img {
+      top: 2550px;
+   }
+}
+@media (min-width: $width-2560) {
+   .section-2-img {
+      top: 2700px;
    }
 }
 
@@ -490,7 +506,7 @@
 }
 @media (min-width: $width-1280) {
    .section-2 {
-      top: 200px;
+      top: 100px;
       h1 {
          font-size: 60px;
          text-align: left;
@@ -500,7 +516,11 @@
       }
    }
 }
-
+@media (min-width: $width-1920) {
+   .section-2 {
+      top: 100px;
+   }
+}
 @media (min-width: $width-2560) {
    .section-2 {
       top: 250px;
