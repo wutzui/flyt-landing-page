@@ -1587,19 +1587,54 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+@media (min-width: 320px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (min-width: 360px) {
+  .container {
+    width: 340px;
+  }
+}
+@media (min-width: 414px) {
+  .container {
+    width: 390px;
+  }
+}
+@media (min-width: 736px) {
+  .container {
+    width: 600px;
+  }
+}
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 650px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 880px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 960px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media (min-width: 1900px) {
+  .container {
+    width: 1200px;
+  }
+}
+@media (min-width: 2560px) {
+  .container {
+    width: 1300px;
   }
 }
 .container-fluid {
@@ -4029,7 +4064,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
-/*  border-color: #eee #eee #ddd;*/
+  border-color: #eee #eee #ddd;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,

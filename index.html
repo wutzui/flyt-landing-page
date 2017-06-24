@@ -14,6 +14,9 @@
     <!-- Bootstrap Core CSS -->
     <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 
+    <!-- favicon -->
+    <link rel="icon" href="img/flyt_favicon.png">
+
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
 
@@ -39,60 +42,150 @@
     <div class="header-img"><img src="img/header_bg.png"></div>
     <nav id="mainNav" class="navbar navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+            <!-- nav for desktop -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#">
-                <img src="img/flyt_logo_b.png" class="nav-logo">
+                <a href="index.html"><img src="img/flyt_logo_blue.png" class="nav-logo"></a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="nav-desktop">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a class="page-scroll" href="#how">HOW IT WORKS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#status">STATUS</a>
+                        <a class="page-scroll" href="#status">OUR MISSION</a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+            <!-- nav for mobile -->
+            <div id="nav-mobile" class="nav-mobile">
+                <div class="nav-mobile-icon"></div>            
+            </div>
         </div>
-        <!-- /.container-fluid -->
     </nav>
+    <ul id="nav-mobile-ul">    
+        <li>
+            <a class="page-scroll" href="#how">HOW IT WORKS</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#status">OUR MISSION</a>
+        </li>
+    </ul>    
 
 
-    <header>
+    <header id="startchange">
         <div class="container">
             <div class="row">
-                <img src="img/iphone6_mockup.png" class="top-device-img" alt="">
-                <div class="col-md-6 floats">
+                <img src="img/iphone6_mockup.png" class="top-device-img" alt="iphone device">
+                <div class="col-md-6 col-ms-12 floats">
                     <div class="header-text">
-                        <h1>Get Away. <br>Smarter.</h1>
-                        <h5>flyt makes saving for travel easier.</h5>
-                        <form>
-                            <input type="email" class="form-control" id="email" placeholder=" Your Email Address">
-                            <input type="submit" value="SUBMIT" class="btn submit"></input>
+                        <h1>flyt makes <br>saving for travel easier.</h1>
+                        <h5>Sign up for early access to our beta and be entered for a chance to win $1,500 towards your next trip.</h5>
+                        <form action="//nickrance.us16.list-manage.com/subscribe/post?u=4da03f423ea15a7261de121d2&amp;id=84dcbeabe6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder=" Your Email Address" required>
+                            <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="btn submit"></input>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
-    <img src="img/section_1_bg.png" class="section-1-img" alt="section-1-background">
     
-    <section id="how" class="section-1">
+    <section id="how" class="section-1 section">
         <div class="container">
-            <div class="row">
-                
+            <h1>How It Works.</h1><br>
+            <div class="col-md-12">    
+                <div class="container-fluid">
+                    <div class="row section-1-content">
+                         <div class="col-md-5 section-1-vector-m"><img src="img/section_1_img.png"></div>
+                        <div class="col-md-5 section-1-vector"><img src="img/section_1_img.png"></div>
+                        <div class="col-md-7">
+                            <div class="col-md-1 slash">
+                                <img src="img/line-45deg.png">
+                            </div>
+                            <div class="col-md-10">
+                                <h2>Save for your next adventure automatically.</h2>
+                                <p>Connect your checking account to Flyt and decide how much you would like to save towards your next travel adventure. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row section-1-content">
+                        <div class="col-md-5 section-1-vector-m"><img src="img/section_2_img.png"></div>
+                        <div class="col-md-7">
+                            <div class="col-md-1 slash">
+                                <img src="img/line-45deg.png">
+                            </div>
+                            <div class="col-md-10">
+                                <h2>Flyt saves for you.</h2>
+                                <p>Flyt's machine learning based algorithm analyzes your checking account and develops a customized cadence that transfers money from your checking account 1- 5 times a week and puts it towards your Flyt savings goal.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5 section-1-vector"><img src="img/section_2_img.png"></div>
+                    </div>
+                    <div class="row section-1-content">
+                        <div class="col-md-5 section-1-vector-m"><img src="img/section_3_img.png"></div>
+                        <div class="col-md-5 section-1-vector"><img src="img/section_3_img.png"></div>
+                        <div class="col-md-7">
+                            <div class="col-md-1 slash">
+                                <img src="img/line-45deg.png">
+                            </div>
+                            <div class="col-md-10">
+                                <h2>Access your money at any time.</h2>
+                                <p>When you need your savings, text Flyt and your savings will be transferred back to your checking account the next business day. Flyt allows unlimited transfers. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <section id="status" class="section-2 section">
+        <div class="container">
+            <h1>Our Mission.</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>We care about making it easier for you to live a fuller, happier life by taking the pain out of saving for the experiences you love. Travel is expensive and saving for it is hard but at Flyt we are obsessed with helping keep you out of credit card debt and taking the stress out of the saving.</h6><br>
+                </div>
+            <div class="row">
+            </div>
+                <div class="col-md-12">
+                    <div class="container-fluid">
+                        <div class="col-md-4">
+                            <div class="status-title"><img src="img/status_1.png" alt="status_1_title"></div>
+                            <div class="section-2-content">
+                                <div>
+                                    
+                                </div>
+                                <p>The #1 cause of credit card debt for millennials is travel.</p> 
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="status-title"><img src="img/status_2.png" alt="status_2_title"></div>
+                            <div class="section-2-content">
+                                <div>
+                                    
+                                </div>
+                                <p>The average get away costs $2,100 all in and takes 3 months to save for. Prepare smarter by setting up a goal on Flyt.</p> 
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="status-title"><img src="img/status_3.png" alt="status_3_title"></div>
+                            <div class="section-2-content">
+                                <div>
+                                    
+                                </div>
+                                <p>No more FOMO, Flyt help you make sure you can always afford to enjoy the experiences you love.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--     <div class="bottom-bg-img"><img src="img/bottom_bg.png"></div> -->
+    <div class="section-1-img"><img src="img/section_1_bg.png" alt="section-1-background"></div>
+    <div class="section-2-img"><img src="img/section_1_bg.png" alt="section-2-background"></div>
+    <footer><p>&#9400; Flyt Technologies Inc. All Rights Reserved.</p></footer>
 
     <!-- jQuery -->
     <script src="lib/jquery/jquery.min.js"></script>
